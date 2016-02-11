@@ -1,0 +1,1 @@
+ALTER TABLE organizations ADD CONSTRAINT unique_domain UNIQUE (domain)

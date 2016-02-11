@@ -1,0 +1,1 @@
+ALTER TABLE organizations DROP CONSTRAINT unique_domain
