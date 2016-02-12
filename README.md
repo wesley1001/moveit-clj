@@ -1,21 +1,27 @@
-# moveit-clj
+# MoveIt Clojure
 
 This is a port of Moveit-Rails to Clojure. This is work in progress.
 
+For more details of our MoveIt app, [head here](https://github.com/multunus/moveit-rails).
+
 ## Prerequisites
 
-You will need [Leiningen][1] 2.0 or above installed.
+You will need [Leiningen][1] 2.0 or above installed. Also, make sure you have the
+latest [Java Runtime Environment][2].
 
 [1]: https://github.com/technomancy/leiningen
+[2]: https://www.java.com/en/download/
 
 ## Running
 
-To start a web server for the application, run:
-    
-    - Update the databse url in profiles.clj
-    - lein run
+To start a web server for the application
 
-#Resources
+- Update the databse url in profiles.clj
+- Run:
+
+    lein run
+
+### Resources
 
 - [Building APIs using Luminus](http://www.luminusweb.net/docs/services.md)
 - [DB Migrations](http://www.luminusweb.net/docs/migrations.md)
@@ -28,6 +34,32 @@ To start a web server for the application, run:
 - [Component](https://github.com/stuartsierra/component)
 - [Getting Started](http://www.luminusweb.net/docs/guestbook.md)
 
+## Contributing
+
+See the [CONTRIBUTING] document.
+Thank you, [contributors]!
+
+  [CONTRIBUTING]: CONTRIBUTING.md
+  [contributors]: https://github.com/multunus/moveit-clj/graphs/contributors
+
 ## License
 
-MIT
+MoveIt and MoveIt Clojure are Copyright (c) 2016 Multunus Software Pvt. Ltd.
+It is free software, and may be redistributed
+under the terms specified in the [LICENSE] file.
+
+  [LICENSE]: /LICENSE
+
+## About
+
+![multunus](https://s3.amazonaws.com/multunus-images/Multunus_Logo_Vector_resized.png)
+
+MoveIt Clojure is maintained and funded by Multunus Software Pvt. Ltd.
+The names and logos for Multunus are trademarks of Multunus Software Pvt. Ltd.
+
+We love open source software!
+See [our other projects][community]
+or [hire us][hire] to help build your product.
+
+  [community]: http://www.multunus.com/community?utm_source=github
+  [hire]: http://www.multunus.com/contact?utm_source=github
