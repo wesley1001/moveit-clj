@@ -7,10 +7,10 @@ For more details of our MoveIt app, [head here](https://github.com/multunus/move
 ## Prerequisites
 
 You will need [Leiningen][1] 2.0 or above installed. Also, make sure you have the
-latest [Java Runtime Environment][2].
+latest [Java  Development Kit][2].
 
 [1]: https://github.com/technomancy/leiningen
-[2]: https://www.java.com/en/download/
+[2]: http://www.oracle.com/technetwork/java/javase/downloads/index.html
 
 ## Running
 
